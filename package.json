@@ -1,0 +1,29 @@
+{
+  "name": "proyecto-bootcamp-inspirejournal-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoTueros/Proyecto-Bootcamp-InspireJournal-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoTueros/Proyecto-Bootcamp-InspireJournal-Backend/issues"
+  },
+  "homepage": "https://github.com/DiegoTueros/Proyecto-Bootcamp-InspireJournal-Backend#readme",
+  "dependencies": {
+    "@sentry/node": "^6.15.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0"
+  }
+}
